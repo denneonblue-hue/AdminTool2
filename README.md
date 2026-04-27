@@ -1,6 +1,6 @@
 1# 🛠️ AdminTool2 - Mein System-Monitor
 
-Ein kleines, praktisches Tool, um Hardware-Daten auszulesen und Software-Updates zu verwalten. Ich wollte eine einfache, übersichtliche Lösung für den Eigenbedarf basteln.
+Ein kompaktes Tool für den Eigenbedarf, um Hardware-Daten auszulesen und Software-Updates bequem über winget zu ziehen.
 
 ## 🚀 Hintergrund zum Projekt
 Ich bin Hobby-Bastler und hatte früher schon mal ein bisschen was mit **Visual Basic** zu tun – die Logik hinter Programmen war mir also nicht ganz fremd. Allerdings war **C# und WPF** für mich bis vor kurzem komplettes Neuland. 
