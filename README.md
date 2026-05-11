@@ -1,30 +1,37 @@
-1# 🛠️ AdminTool2 - Mein System-Monitor
+# 🛠️ AdminTool2 | System Monitor & Management Dashboard
 
-Ein kompaktes Tool für den Eigenbedarf, um Hardware-Daten auszulesen und Software-Updates bequem über winget zu ziehen.
+Ein kompaktes, performantes WPF-Dashboard zur Überwachung von Hardware-Metriken und zur Verwaltung von Software-Updates via Windows Package Manager (WinGet).
 
-## 🚀 Hintergrund zum Projekt
-Ich bin Hobby-Bastler und hatte früher schon mal ein bisschen was mit **Visual Basic** zu tun – die Logik hinter Programmen war mir also nicht ganz fremd. Allerdings war **C# und WPF** für mich bis vor kurzem komplettes Neuland. 
+## 🚀 Projekthintergrund & Lernkurve
 
-Mein Ziel bei diesem Projekt war es, mein altes Wissen aus VB-Zeiten zu reaktivieren und direkt auf das moderne .NET-Ökosystem zu übertragen. Anstatt trockene Theorie zu büffeln, wollte ich in wenigen Tagen ein echtes Tool bauen, das unter der Haube deutlich mehr Power hat als meine alten Bastel-Projekte.
+Dieses Tool ist mehr als nur ein Utility-Programm – es ist mein praktisches Einstiegsprojekt in die moderne .NET-Entwicklung. 
 
-Das Ergebnis ist dieses "Einstiegs-Projekt" in die C#-Welt. Es war ein wilder Ritt durch XAML-Templates, Styles und moderne System-APIs.
+Vor rund 15 Jahren habe ich meine ersten programmiertechnischen Grundlagen mit Visual Basic gelegt. Mein Ziel war es nun, dieses fundamentale Verständnis für Programm-Logik zu reaktivieren und direkt auf C# und das aktuelle .NET-Ökosystem zu übertragen. 
 
-## ✨ Features
-* **Hardware-Check:** Zeigt CPU, Grafikkarte, RAM, Mainboard und Netzwerk in einer Baumstruktur.
-* **Live-Werte:** CPU-Last und RAM-Verbrauch werden in Echtzeit angezeigt.
-* **Festplatten:** Visualisierte Belegung deiner Laufwerke mit schicken Balken.
-* **Modernes Design:** Abgerundete Ecken und ein Dark Mode (war ein ziemlicher Kampf im XAML, sieht aber jetzt gut aus).
+Anstatt nur trockene Theorie zu lesen, habe ich mich für einen modernen, praxisnahen Ansatz entschieden: Ich habe aktuelle KI-Modelle als "Pair Programmer" und interaktive Tutoren genutzt. Durch gezieltes Prompting, Fehleranalyse und Code-Reviews mit der KI konnte ich mich innerhalb kürzester Zeit in komplexe Konzepte wie asynchrone Programmierung, WMI-Schnittstellen und Custom-XAML/WPF einarbeiten.
+## ✨ Kern-Features
 
-## ⚠️ WinGet & Baustellen
-Die Update-Funktion nutzt WinGet. Da das Ganze noch ein bisschen experimentell ist, macht WinGet manchmal Probleme – zum Beispiel bei der Versionserkennung oder wenn die Paketquellen mal wieder hängen. Das ist aktuell noch eine "Work-in-Progress"-Ecke.
+* **Hardware-Analyse:** Detailliertes Auslesen und Strukturierung der Systemkomponenten (CPU, GPU, RAM, Mainboard, Netzwerk) über Windows System-APIs.
+* **Echtzeit-Monitoring:** Asynchrones Live-Tracking der CPU-Auslastung und des Arbeitsspeichers für sofortiges visuelles Feedback, ohne das UI zu blockieren.
+* **Speicher-Visualisierung:** Grafische Aufbereitung der Laufwerksbelegung (Kapazität vs. Nutzung) mittels intuitiver Fortschrittsbalken.
+* **Modernes UI/UX:** Komplett eigenständiges Custom-WPF-Design (Dark Mode, abgerundete Ecken, Window-Styling) – umgesetzt ohne externe Drittanbieter-Frameworks.
+
+## 🚧 Roadmap & Known Issues (WinGet)
+
+Das Modul zur Software-Aktualisierung nutzt die WinGet-CLI im Hintergrund. Da sich WinGet noch in stetiger Entwicklung befindet, stehen hier folgende Optimierungen auf der Roadmap:
+* **Parsing-Optimierung:** Verbesserung der Versionserkennung bei inkonsistenten Rückgaben der Paketquellen.
+* **Fehlerbehandlung:** Besseres Handling von Timeouts und stabileres Verhalten, wenn die WinGet-Server zeitweise nicht erreichbar sind.
 
 ## 🛠️ Technik-Stack
-* **Sprache:** C# 
-* **UI:** WPF (.NET 9.0) – komplett eigene Styles, ohne fertige Frameworks.
-* **Struktur:** Nutzt das neue `.slnx` Solution-Format.
+
+* **Sprache:** C#
+* **Framework:** .NET 9.0 (Windows Presentation Foundation)
+* **Architektur:** Nutzung des neuen `.slnx` Solution-Formats
+* **APIs:** WMI (Windows Management Instrumentation), WinGet CLI
 
 ## 📝 Lizenz
-Das Tool steht unter der MIT-Lizenz. Reinschauen, lernen, umbauen – alles erlaubt.
+
+Dieses Projekt steht unter der [MIT-Lizenz](LICENSE). Reinschauen, lernen, forken und umbauen – alles ist ausdrücklich erlaubt!
 
 ---
-**Gebastelt von denneonblue** – Logik war bekannt, C# war neu, das Tool steht.
+Entwickelt von denneonblue – Ein bestehendes Logik-Fundament, erfolgreich überführt in eine moderne C#-Anwendung.
