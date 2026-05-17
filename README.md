@@ -3,7 +3,8 @@
 Ein modernes WPF-Tool zur Echtzeit-Überwachung von Hardware-Ressourcen und zur komfortablen Verwaltung von Software-Updates über winget.
 
 <img width="1186" height="893" alt="light" src="https://github.com/user-attachments/assets/c453f9eb-35ca-4529-873e-8906a5ffd057" />
-<!-- ![Dark Mode – Hauptansicht](Pfad-zu-deinem-Bild.png) -->
+<img width="1186" height="893" alt="dark" src="https://github.com/user-attachments/assets/fa9a1e31-e3f8-4495-bfd8-2e2688e1eee5" />
+
 
 ## Projektbeschreibung
 AdminTool2 ist ein eigenständig entwickeltes Dashboard, das Hardware-Auslastung live visualisiert und die Software-Verwaltung unter Windows stark vereinfacht. Das Tool entstand aus dem Wunsch, administrative Aufgaben effizienter zu gestalten – mit Fokus auf Performance, modernes Design und praktische Nutzbarkeit.
