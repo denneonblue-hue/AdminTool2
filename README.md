@@ -19,7 +19,7 @@ AdminTool2 ist ein eigenständig entwickeltes Dashboard, das Hardware-Auslastung
 ## Meine Motivation & Vorkenntnisse
 
 ### Das Fundament (Reverse Engineering & Serverstrukturen)
-Bereits vor über 15 Jahren habe ich mir durch Reverse Engineering, Modifikation von Game-Clients (u. a. die eigenständige Entwicklung des NeonBlue Modified Clients für Metin2) sowie dem Aufsetzen und Verwalten eigener Linux-basierter Serverstrukturen und SQL-Datenbanken tiefe IT-Grundlagen angeeignet.
+Bereits vor über 15 Jahren habe ich mir durch Reverse Engineering, Modifikation von Game-Clients sowie dem Aufsetzen und Verwalten eigener Linux-basierter Serverstrukturen und SQL-Datenbanken tiefe IT-Grundlagen angeeignet.
 
 ### Das Mindset (Aus der Präzisionsfertigung in den Code)
 Beruflich komme ich aus der industriellen Präzisionsfertigung im $\mu$-Bereich. Diese Arbeitsweise prägt meinen Code: In der Fertigung führt ein falscher Parameter zu teurem Ausschuss – in der IT zu Systemfehlern. Ich entwickle mit demselben Fokus auf absolute Prozesssicherheit, Fehlervermeidung und logische Stringenz.
